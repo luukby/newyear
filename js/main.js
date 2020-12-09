@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function(){
         var video = document.getElementById('video');
         var hls = new Hls();
         hls.loadSource(
-            'https://thingproxy.freeboard.io/fetch/'
+            proxy1
             + 'https://newyear.mail.ru/video/man/'
             + name
             + '/h_telefon/a_roditeli/12/kids_manifest.m3u8'
